@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.alert-notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+
+.success-icon {
+  color: aquamarine;
+}
+
+.notification-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100px;
+  width: 450px;
+  border: 1px solid #64748b;
+  padding: 10px;
+}
+
+.success-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: #2dca73;
+}
+
+.heading-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.close-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-icon {
+  color: #ff0b37;
+}
+
+.error-heading {
+  font-size: 15px;
+  color: #ff0b37;
+  font-weight: 600;
+}
+
+.warning-icon {
+  color: #ffb800;
+}
+
+.warning-heading {
+  font-size: 15px;
+  color: #ffb800;
+  font-weight: 600;
+}
+
+.info-icon {
+  color: #0f81e0;
+}
+
+.info-heading {
+  font-size: 15px;
+  color: #0f81e0;
+  font-weight: 600;
+}
